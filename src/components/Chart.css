@@ -1,0 +1,128 @@
+.chartContainer {
+  padding: 2rem 0rem;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .chartContainer > p {
+    display: none;
+    position: absolute;
+    top:80px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #00000080;
+  }
+
+  .custom-tooltip {
+    font-size: 12px;
+    padding: 11px;
+    font-weight: 400;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 20px #e3e5f3;
+  }
+  
+  .custom-tooltip > p {
+    display: flex;
+    align-items: baseline;
+    font-weight: 600;
+    color: #00000080;
+  }
+  
+  .custom-tooltip span {
+    margin: 0 15px 0 0;
+    width: 30px;
+    text-align: end;
+    font-weight: 700;
+    color: #01C876;
+  }
+  
+  .custom-tooltip > .sojaTT span {
+    color: #FB5D6A;
+  }
+
+  .custom-tooltip > .tournesolTT span {
+    color: #6C8BF1;
+  }
+
+  form {
+    width: 400px;
+    padding: 1rem;
+  }
+
+  .formRow {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    gap: 0.2rem;
+  }
+
+  form label {
+    font-size: 1em;
+    font-weight: 600;
+    color: #00000080;
+  }
+
+  form input {
+    border-radius: 8px;
+    border: 1px solid #0000001d;
+    padding: 0.3em 0.6em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+
+  form input[type="submit"] {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+
+  form input:hover, form input:focus form input[type="submit"]:hover,form input[type="submit"]:active,.switches button:hover,.switches button:active {
+    border-color: #fcb653 !important;
+  }
+
+  .chartWithOptions {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    position: relative;
+  }
+
+  .legend {
+    display: block !important;
+    top: 70% !important;
+    font-size: 1rem !important;
+  }
+
+  .legend .dot {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 50%;
+    background-color: red;
+  }
+
+  /* .switches {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    display: none;
+  }
+
+  .switches button.active {
+    background-color: #fcb653;
+    color: #ffffff;
+  } */

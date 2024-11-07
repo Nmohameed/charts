@@ -1,0 +1,27 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  overflow: hidden;
+}
+
+.reactApp {
+  width: 100%;
+  height: 100dvh;
+}
+
+.reactApp > h1 {
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: #fcb653;
+    color: #ffffff;
+}
